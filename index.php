@@ -1,45 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Electronix Store</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<!--[if IE 6]>
-<link rel="stylesheet" type="text/css" href="css/iecss.css" />
-<![endif]-->
-<script type="text/javascript" src="js/boxOver.js"></script>
-</head>
-<body>
-<div id="main_container">
-  <div class="top_bar">
-    <div class="top_search">
-      <div class="search_text"><a href="#">Advanced Search</a></div>
-      <input type="text" class="search_input" name="search" />
-      <input type="image" src="images/search.gif" class="search_bt"/>
-    </div>
-    <div class="languages">
-      <div class="lang_text">Languages:</div>
-      <a href="#" class="lang"><img src="images/en.gif" alt="" border="0" /></a> <a href="#" class="lang"><img src="images/de.gif" alt="" border="0" /></a> </div>
-  </div>
-  <div id="header">
-    <div id="logo"> <a href="#"><img src="images/logo.png" alt="" border="0" width="237" height="140" /></a> </div>
-    <div class="oferte_content">
-      <div class="top_divider"><img src="images/header_divider.png" alt="" width="1" height="164" /></div>
-      <div class="oferta">
-        <div class="oferta_content"> <img src="images/laptop.png" width="94" height="92" alt="" border="0" class="oferta_img" />
-          <div class="oferta_details">
-            <div class="oferta_title">Samsung GX 2004 LM</div>
-            <div class="oferta_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </div>
-            <a href="details.php" class="details">details</a> </div>
-        </div>
-        <div class="oferta_pagination"> <span class="current">1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> </div>
-      </div>
-      <div class="top_divider"><img src="images/header_divider.png" alt="" width="1" height="164" /></div>
-    </div>
-    <!-- end of oferte_content-->
-  </div>
+ <?php
+    require_once('template/header.php');
+    require_once('template/menu.php');
+ ?>
   <div id="main_content">
-    <div id="menu_tab">
+    <!-- <div id="menu_tab">
       <div class="left_menu_corner"></div>
       <ul class="menu">
         <li><a href="#" class="nav1"> Home</a></li>
@@ -64,13 +28,18 @@
         </li>
       </ul>
       <div class="right_menu_corner"></div>
-    </div>
+    </div> -->
     <!-- end of menu tab -->
-    <div class="crumb_navigation"> Navigation: <span class="current">Home</span> </div>
-    <div class="left_content">
-      <div class="title_box">Categories</div>
+    <div class="crumb_navigation">   
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Buscar">
+              </div> 
+         
+    
+    </div>
+    <div class="left_content"> 
       <ul class="left_menu">
-        <li class="odd"><a href="#">Processors</a></li>
+        <li class="category_titule"> Categorias </li>
         <li class="even"><a href="#">Motherboards</a></li>
         <li class="odd"><a href="#">Desktops</a></li>
         <li class="even"><a href="#">Laptops &amp; Notebooks</a></li>
@@ -220,14 +189,6 @@
     <!-- end of right content -->
   </div>
   <!-- end of main content -->
-  <div class="footer">
-    <div class="left_footer"> <img src="images/footer_logo.png" alt="" width="170" height="49"/> </div>
-    <div class="center_footer"> Template name. All Rights Reserved 2008<br />
-      <a href="http://csscreme.com"><img src="images/csscreme.jpg" alt="csscreme" border="0" /></a><br />
-      <img src="images/payment.gif" alt="" /> </div>
-    <div class="right_footer"> <a href="#">home</a> <a href="#">about</a> <a href="#">sitemap</a> <a href="#">rss</a> <a href="contact.php">contact us</a> </div>
-  </div>
-</div>
-<!-- end of main_container -->
-</body>
-</html>
+ <?php
+    require_once('template/footer.php');
+ ?>
