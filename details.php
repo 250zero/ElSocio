@@ -3,9 +3,9 @@
 <head>
 <title>Electronix Store - Details</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <!--[if IE 6]>
-<link rel="stylesheet" type="text/css" href="iecss.css" />
+<link rel="stylesheet" type="text/css" href="css/iecss.css" />
 <![endif]-->
 <script type="text/javascript" src="js/windowopen.js"></script>
 <script type="text/javascript" src="js/boxOver.js"></script>
@@ -157,7 +157,7 @@
           <span class="border_cart"></span> Total: <span class="price">350$</span> </div>
         <div class="cart_icon"><a href="#" title="header=[Checkout] body=[&nbsp;] fade=[on]"><img src="images/shoppingcart.png" alt="" width="48" height="48" border="0" /></a></div>
       </div>
-      <div class="title_box">What’s new</div>
+      <div class="title_box">Whatï¿½s new</div>
       <div class="border_box">
         <div class="product_title">Motorola 156 MX-VL</div>
         <div class="product_img"><a href="#"><img src="images/p2.gif" alt="" border="0" /></a></div>
